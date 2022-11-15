@@ -23,7 +23,8 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
         with:
-          repository: 'dolphin78/chiaki-qt6@motion'
+          repository: 'dolphin78/chiaki-qt6'
+          branch: 'motion'
           submodules: 'recursive'
           path: 'chiaki-qt6'
 
