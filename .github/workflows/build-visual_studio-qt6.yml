@@ -24,7 +24,7 @@ jobs:
         uses: actions/checkout@v2
         with:
           repository: 'dolphin78/chiaki-qt6'
-          branch: 'motion'
+          ref: 'motion'
           submodules: 'recursive'
           path: 'chiaki-qt6'
 
