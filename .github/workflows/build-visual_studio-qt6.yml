@@ -23,7 +23,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
         with:
-          repository: 'alvaromunoz/chiaki-qt6'
+          repository: 'dolphin78/chiaki-qt6'
           submodules: 'recursive'
           path: 'chiaki-qt6'
 
