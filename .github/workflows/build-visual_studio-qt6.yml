@@ -1,11 +1,7 @@
 name: Build Chiaki (VC Qt6)
 
 on:
-  workflow_dispatch:
-  # workflow_call: #testing!
-
-  # TODO: https://www.qt.io/blog/qt-multimedia-in-qt-6
-  # Not as easy as updating a cmakelists.txt file :(
+  workflow_call:
 
 jobs:
   build-win_x64: # only win_x64 so far :)
@@ -23,8 +19,8 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
         with:
-          repository: 'dolphin78/chiaki-qt6'
-          ref: 'haptics'
+          # repository: 'dolphin78/chiaki-qt6'
+          # ref: 'haptics'
           submodules: 'recursive'
           path: 'chiaki-qt6'
 
